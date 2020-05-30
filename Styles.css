@@ -1,7 +1,13 @@
-html, body{
+/* html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+}
+body {
+    background-image: url("Mountain home.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
 }
 footer {
     display: block;
@@ -35,4 +41,15 @@ footer {
     background-color: lightskyblue;
     color: whitesmoke;
     font-style: italic; 
+}
+
+.container {
+    background-color: #FFF;
+    margin: 80px 10%;
+    padding: 30px 60px;
+    border-radius: 20px;
+    box-shadow: 0 3px 26px 0 #000;
+} */
+body {
+    background-color: red;
 }
