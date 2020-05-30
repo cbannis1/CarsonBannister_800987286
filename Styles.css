@@ -1,4 +1,4 @@
-/* html, body{
+ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
@@ -49,7 +49,7 @@ footer {
     padding: 30px 60px;
     border-radius: 20px;
     box-shadow: 0 3px 26px 0 #000;
-} */
+} 
 body {
     background-color: red;
 }
