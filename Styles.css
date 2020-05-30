@@ -1,30 +1,43 @@
- html, body{
+html, body{
     height: 100%;
     margin: 0;
     padding: 0;
 }
 body {
-    background-image: url("Mountain home.jpg");
+    /*background-image: url("Mountain home.jpg");*/
     background-repeat: no-repeat;
-    background-position: 0 0;
-    background-attachment: fixed;
+    align-content: center;
+    background: #2FC6F4;
+    background: -moz-linear-gradient(top, #2FC6F4 0%, #85C1FF 75%, #2E3375 100%);
+    background: -webkit-linear-gradient(top, #2FC6F4 0%, #85C1FF 75%, #2E3375 100%);
+    background: linear-gradient(to bottom, #2FC6F4 0%, #85C1FF 75%, #2E3375 100%);
+
 }
 footer {
     display: block;
     font-size: 20px;
-    position: fixed; 
-    align-content: baseline;
+    align-content: center;
+
 }
-.top{ 
+.container {
+    background-color: #FFF;
+    margin: 80px 10%;
+    padding: 30px 60px;
+    border-radius: 20px;
+    box-shadow: 0 3px 26px 0 #000;
+    text-align: center;
+    align-content: center;
+}
+.top {
     overflow: hidden;
     background-color: #333;
-    position: fixed; 
+    position: fixed;
     top: 0;
     width: 100%;
 }
 
 .top a {
-    float: left; 
+    float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -33,23 +46,11 @@ footer {
 }
 
 .top a:hover {
-    background-color: darkgreen;
-    color: white; 
+    background-color: #ddd;
+    color: black;
 }
 
-.top a.active { 
-    background-color: lightskyblue;
-    color: whitesmoke;
-    font-style: italic; 
-}
 
-.container {
-    background-color: #FFF;
-    margin: 80px 10%;
-    padding: 30px 60px;
-    border-radius: 20px;
-    box-shadow: 0 3px 26px 0 #000;
-} 
-body {
-    background-color: red;
-}
+
+
+
